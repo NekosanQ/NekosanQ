@@ -1,5 +1,5 @@
 ## Hello World!!
-I'm a high school student with many hobbies.
+I'm a student with many interests.
 ## Status
 <p align="left"> 
   <img alt="github status" height="150px" src="https://github-readme-stats.vercel.app/api?username=NekosanQ&show_icons=true&theme=dark" />
