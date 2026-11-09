@@ -1,16 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="374" viewBox="0 0 800 374" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="594" viewBox="0 0 800 594" role="img" aria-labelledby="title description">
   <title id="title">Linux login introduction</title>
-  <desc id="description">Welcome to my GitHub profile! NekosanQ. Age: 19. Country: Oita, Japan. Language: Japanese, English (almost read-only). Likes: Rack-mounted equipment. Hello World!! I&apos;m a student with many hobbies...</desc>
+  <desc id="description">Welcome to my GitHub profile! NekosanQ. Age: 19. Country: Oita, Japan. Language: Japanese, English (almost read-only). Likes: Rack-mounted equipment. Hello World!! I&apos;m a student with many hobbies... DDD: Dopagaki Driven Development. I love DDD! Illustrated terminal sequence: curl -fsSL https://chatgpt.com/codex/install.sh | sh. Codex CLI installation, followed by the launch confirmation and a fresh prompt.</desc>
   <style>
     text { font: 11px Verdana, Geneva, "DejaVu Sans", sans-serif; fill: #e6edf3; }
     .heading { font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
     .muted { fill: #e6edf3; }
     .value { fill: #e6edf3; font-variant-numeric: tabular-nums; }
   </style>
-  <rect x=".5" y=".5" width="799" height="373" fill="#0d1117" stroke="#3d444d"/><style>
+  <rect x=".5" y=".5" width="799" height="593" fill="#0d1117" stroke="#3d444d"/><style>
       .terminal { font: 13px "Ubuntu Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace; }
+      .terminal { font-variant-ligatures: none; }
       .welcome, .greeting { font-size: 14px; font-weight: 600; }
       .prompt { fill: #3fb950; font-weight: 600; }
+      .ddd-name { fill: #f778ba; }
+      .install-command-reveal { animation: type-command 3s steps(52, end) .7s both; }
+      .install-cursor { opacity: 0; animation: command-cursor 3s steps(52, end) .7s both; }
+      .install-step { opacity: 1; animation: show-install-step .12s linear both; }
+      .install-output { font-size: 12px; }
+      .install-confirm { animation-delay: 5.9s; }
+      .install-answer { animation-delay: 6.6s; }
+      .install-launch { animation-delay: 7s; }
+      .install-finished { animation-delay: 7.4s; }
+      .ready-cursor { animation: blink-cursor .9s step-end infinite; }
+      @keyframes type-command { from { width: 148.2px; } to { width: 553.8px; } }
+      @keyframes command-cursor {
+        0% { transform: translateX(0); opacity: 1; }
+        99% { opacity: 1; }
+        100% { transform: translateX(405.6px); opacity: 0; }
+      }
+      @keyframes show-install-step { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes blink-cursor { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .install-command-reveal, .install-cursor, .install-step, .ready-cursor { animation: none; }
+        .install-cursor { opacity: 0; }
+      }
     </style>
     <g class="terminal">
       <text x="24" y="38" class="terminal welcome">Welcome to my GitHub profile!</text>
@@ -36,6 +59,23 @@
       <text x="24" y="288" class="terminal greeting">Hello World!!</text>
       <text x="24" y="312" class="terminal">I&apos;m a student with many hobbies...</text>
 
-      <text x="24" y="350" class="terminal"><tspan class="prompt">nekosanq@github</tspan>:~$ <tspan aria-hidden="true">▍</tspan></text>
+      <text x="24" y="350" class="terminal welcome">DDD: <tspan class="ddd-name">Dopagaki Driven Development</tspan></text>
+      <text x="24" y="376" class="terminal">I love DDD!</text>
+
+      <defs>
+        <clipPath id="install-command-clip">
+          <rect x="24" y="402" width="553.8" height="22" class="install-command-reveal"/>
+        </clipPath>
+      </defs>
+      <g clip-path="url(#install-command-clip)">
+        <text x="24" y="418" class="terminal" textLength="553.8" lengthAdjust="spacingAndGlyphs"><tspan class="prompt">nekosanq@github</tspan>:~$ curl -fsSL https://chatgpt.com/codex/install.sh | sh</text>
+      </g>
+      <rect x="172.2" y="405" width="7" height="15" fill="#e6edf3" class="install-cursor" aria-hidden="true"/>
+      <text x="24" y="448" class="terminal install-output install-step" data-install-log="0" style="animation-delay:3.9s">==&gt; Installing Codex CLI</text>
+<text x="24" y="468" class="terminal install-output install-step" data-install-log="1" style="animation-delay:4.4s">==&gt; Downloading Codex CLI</text>
+<text x="24" y="488" class="terminal install-output install-step" data-install-log="2" style="animation-delay:5.5s">Codex CLI installed successfully.</text>
+      <text x="24" y="508" class="terminal install-output install-step install-confirm">Start Codex now? [y/N] <tspan class="install-step install-answer">y</tspan></text>
+      <text x="24" y="532" class="terminal install-output install-step install-launch">==&gt; Launching Codex</text>
+      <text x="24" y="570" class="terminal install-step install-finished"><tspan class="prompt">nekosanq@github</tspan>:~$ <tspan class="ready-cursor" aria-hidden="true">▍</tspan></text>
     </g>
 </svg>

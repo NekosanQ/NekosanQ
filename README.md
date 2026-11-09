@@ -1,5 +1,5 @@
 <p align="left">
-  <img alt="Linux login screen: Welcome to my GitHub profile! Hello World!! I'm a student with many hobbies..." width="800" src="./assets/intro.svg" />
+  <img alt="Linux login screen: DDD: Dopagaki Driven Development. I love DDD! Animated illustration of the Codex CLI installer, launch confirmation, and shell prompt." width="800" src="./assets/intro.svg" />
 </p>
 
 <!-- stats:start -->

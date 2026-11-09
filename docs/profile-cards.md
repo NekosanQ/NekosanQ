@@ -3,8 +3,15 @@
 The introduction is a Linux login-style card at `assets/intro.svg`, sharing the
 existing frame, 800px width, and foreground color. It shows a welcome banner,
 website/GitHub links, a two-column profile summary, and the original greeting
-and bio. A green `nekosanq@github:~$` prompt ends the login message. The terminal
-is decorative and has no shell interaction.
+and bio. Below the bio, a DDD advocacy message shows a white "DDD:" label,
+pink "Dopagaki Driven Development", and "I love DDD!".
+The terminal then illustrates typing `curl -fsSL https://chatgpt.com/codex/install.sh | sh`
+at a green `nekosanq@github:~$` prompt. A compact version of the user's installer
+transcript shows installation, download, success, `Start Codex now? [y/N] y`,
+and launch. This is a decorative SVG animation; generation never executes the
+command or downloads an installer.
+It plays once on load, then rests at a fresh prompt. Reduced-motion settings
+show the completed static state, as do renderers without animation support.
 Edit `scripts/intro.ts` and run `npm run generate:intro` to update it without a token.
 The profile summary shows Country (`Oita, Japan`) and Language (`Japanese,
 English (almost read-only)`). Age is calculated from January 11, 2007 using the
