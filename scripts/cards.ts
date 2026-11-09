@@ -37,7 +37,7 @@ function badgeContent(badge: Badge): string {
   ${badge.value ? `<text x="${width - 8}" y="14" text-anchor="end">${escapeXml(badge.value)}</text>` : ""}`;
 }
 
-function document(width: number, height: number, title: string, description: string, content: string): string {
+export function document(width: number, height: number, title: string, description: string, content: string): string {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title description">
   <title id="title">${escapeXml(title)}</title>
   <desc id="description">${escapeXml(description)}</desc>
@@ -88,15 +88,18 @@ export function renderStatusMarkdown(): string {
   return '<p align="left">\n  <img alt="GitHub Stats: general information, repositories, past-year contributions, and language distribution" width="800" src="./assets/github-stats.svg" />\n</p>';
 }
 
-function frame(height: number): string {
-  return `<rect x=".5" y=".5" width="799" height="${height - 1}" fill="${theme.background}" stroke="${theme.border}"/>`;
+export function frame(height: number, width = 800): string {
+  return `<rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" fill="${theme.background}" stroke="${theme.border}"/>`;
 }
 
-function header(title: string, subtitle: string, headerIcon: IconName): string {
-  return icon(headerIcon, 24, 24, theme.foreground)
+export function header(title: string, subtitle: string, headerIcon: IconName, logo?: string, width = 800): string {
+  const glyph = logo
+    ? `<svg x="24" y="24" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="${theme.foreground}" d="${escapeXml(logo)}"/></svg>`
+    : icon(headerIcon, 24, 24, theme.foreground);
+  return glyph
     + `<text x="50" y="37" class="heading">${escapeXml(title)}</text>`
-    + `<text x="776" y="36" text-anchor="end" class="muted">${escapeXml(subtitle)}</text>`
-    + `<path d="M24 56H776" stroke="${theme.border}"/>`;
+    + `<text x="${width - 24}" y="36" text-anchor="end" class="muted">${escapeXml(subtitle)}</text>`
+    + `<path d="M24 56H${width - 24}" stroke="${theme.border}"/>`;
 }
 
 // Skills keeps its flat badge layout inside the same frame used by Status.

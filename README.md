@@ -1,7 +1,6 @@
-## Hello World!!
-I'm a student with many hobbies...
-
-## Status
+<p align="left">
+  <img alt="Linux login screen: Welcome to my GitHub profile! Hello World!! I'm a student with many hobbies..." width="800" src="./assets/intro.svg" />
+</p>
 
 <!-- stats:start -->
 <p align="left">
@@ -9,12 +8,11 @@ I'm a student with many hobbies...
 </p>
 <!-- stats:end -->
 
-## My Skills
-
 <p align="left">
   <img alt="Skills: Languages, Frameworks and Databases, Infrastructure and Cloud, Monitoring and Tools" width="800" src="./assets/skills.svg" />
 </p>
 
-## Links
-[Website](https://www.nekosanq.net)　<br><br>
-[![Twitter](https://img.shields.io/badge/Twitter-%40nekosanq_ts-1DA1F2?logo=twitter&style=flat-square)](https://twitter.com/nekosanq_ts)
+<p align="left">
+  <a href="https://nekosanq.net"><img alt="Website: nekosanq.net" width="396" src="./assets/link-website.svg" /></a>
+  <a href="https://twitter.com/nekosanq_ts"><img alt="Twitter / X: @nekosanq_ts" width="396" src="./assets/link-twitter.svg" /></a>
+</p>

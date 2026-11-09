@@ -7,6 +7,8 @@
   },
   "scripts": {
     "generate": "node scripts/generate-stats.ts",
+    "generate:intro": "node scripts/generate-intro.ts",
+    "generate:links": "node scripts/generate-links.ts",
     "generate:skills": "node scripts/generate-skills.ts",
     "check": "tsc --noEmit",
     "test": "node --test scripts/*.test.ts"

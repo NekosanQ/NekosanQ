@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="374" viewBox="0 0 800 374" role="img" aria-labelledby="title description">
+  <title id="title">Linux login introduction</title>
+  <desc id="description">Welcome to my GitHub profile! NekosanQ. Age: 19. Country: Oita, Japan. Language: Japanese, English (almost read-only). Likes: Rack-mounted equipment. Hello World!! I&apos;m a student with many hobbies...</desc>
+  <style>
+    text { font: 11px Verdana, Geneva, "DejaVu Sans", sans-serif; fill: #e6edf3; }
+    .heading { font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .muted { fill: #e6edf3; }
+    .value { fill: #e6edf3; font-variant-numeric: tabular-nums; }
+  </style>
+  <rect x=".5" y=".5" width="799" height="373" fill="#0d1117" stroke="#3d444d"/><style>
+      .terminal { font: 13px "Ubuntu Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace; }
+      .welcome, .greeting { font-size: 14px; font-weight: 600; }
+      .prompt { fill: #3fb950; font-weight: 600; }
+    </style>
+    <g class="terminal">
+      <text x="24" y="38" class="terminal welcome">Welcome to my GitHub profile!</text>
+
+      <text x="32" y="78" class="terminal">* Website:  https://nekosanq.net</text>
+      <text x="32" y="100" class="terminal">* GitHub:   https://github.com/NekosanQ</text>
+
+      <text x="32" y="142" class="terminal">Profile information:</text>
+      <text x="40" y="176" class="terminal">Name:</text>
+      <text x="144" y="176" class="terminal">NekosanQ</text>
+      <text x="416" y="176" class="terminal">Role:</text>
+      <text x="528" y="176" class="terminal">Student</text>
+      <text x="40" y="198" class="terminal">Country:</text>
+      <text x="144" y="198" class="terminal">Oita, Japan</text>
+      <text x="416" y="198" class="terminal">Age:</text>
+      <text x="528" y="198" class="terminal">19</text>
+      <text x="40" y="220" class="terminal">Language:</text>
+      <text x="144" y="220" class="terminal">Japanese,</text>
+      <text x="144" y="242" class="terminal">English (almost read-only)</text>
+      <text x="416" y="220" class="terminal">Likes:</text>
+      <text x="528" y="220" class="terminal">Rack-mounted equipment</text>
+
+      <text x="24" y="288" class="terminal greeting">Hello World!!</text>
+      <text x="24" y="312" class="terminal">I&apos;m a student with many hobbies...</text>
+
+      <text x="24" y="350" class="terminal"><tspan class="prompt">nekosanq@github</tspan>:~$ <tspan aria-hidden="true">▍</tspan></text>
+    </g>
+</svg>

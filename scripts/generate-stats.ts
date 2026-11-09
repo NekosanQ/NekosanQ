@@ -3,6 +3,8 @@ import { fileURLToPath } from "node:url";
 import { fetchStats } from "./github.ts";
 import { renderLanguages, renderStats, renderStatusMarkdown } from "./cards.ts";
 import { renderSkills } from "./skills.ts";
+import { renderIntro } from "./intro.ts";
+import { renderLinkCards } from "./links.ts";
 
 const login = process.env.PROFILE_USERNAME ?? "NekosanQ";
 const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
@@ -22,8 +24,12 @@ const updatedReadme = readme.slice(0, readme.indexOf(start) + start.length)
   + readme.slice(readme.indexOf(end));
 const directory = new URL("../assets/", import.meta.url);
 await mkdir(directory, { recursive: true });
+await writeFile(new URL("intro.svg", directory), renderIntro(login));
 await writeFile(new URL("github-stats.svg", directory), renderStats(stats));
 await writeFile(new URL("top-languages.svg", directory), renderLanguages(stats));
 await writeFile(new URL("skills.svg", directory), renderSkills());
+for (const [file, svg] of Object.entries(renderLinkCards())) {
+  await writeFile(new URL(file, directory), svg);
+}
 await writeFile(readmePath, updatedReadme);
 console.log(`Generated profile cards for ${stats.login} in ${fileURLToPath(directory)}`);

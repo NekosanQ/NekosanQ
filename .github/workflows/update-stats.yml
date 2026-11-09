@@ -58,7 +58,7 @@ jobs:
           PROFILE_USERNAME: NekosanQ
       - name: Commit updated cards
         run: |
-          git add README.md assets/github-stats.svg assets/top-languages.svg assets/skills.svg
+          git add README.md assets/intro.svg assets/github-stats.svg assets/top-languages.svg assets/skills.svg assets/link-website.svg assets/link-twitter.svg
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

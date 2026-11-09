@@ -1,5 +1,7 @@
 // Inline line icons keep the SVG self-contained in GitHub's image renderer.
 const paths = {
+  globe: '<circle cx="8" cy="8" r="6.5"/><ellipse cx="8" cy="8" rx="3" ry="6.5"/><path d="M1.5 8h13"/>',
+  externalLink: '<path d="M9 2h5v5M14 2 7 9M6 3H2v11h11v-4"/>',
   user: '<circle cx="8" cy="5" r="2.5"/><path d="M3 14v-1a5 5 0 0 1 10 0v1"/>',
   users: '<circle cx="6" cy="5" r="2.2"/><path d="M1.5 14v-1a4.5 4.5 0 0 1 9 0v1M11 3a2.2 2.2 0 0 1 0 4.4M12 9a4 4 0 0 1 2.5 4v1"/>',
   following: '<circle cx="6" cy="5" r="2.2"/><path d="M1.5 14v-1a4.5 4.5 0 0 1 9 0v1M13 4v5M10.5 6.5h5"/>',
