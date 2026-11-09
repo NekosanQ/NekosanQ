@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="394" viewBox="0 0 800 394" role="img" aria-labelledby="title description">
   <title id="title">GitHub Stats</title>
-  <desc id="description">NekosanQ. General: Year joined: 2021, Followers: 14, Following: 13, Most starred: nekosanq.net, Most forked: —. Repositories · Non-forks / All: Repositories: 12 non-forks, 15 including forks., Stars: 6 non-forks, 6 including forks., Forks: 0 non-forks, 0 including forks., Watchers: 11 non-forks, 11 including forks., Templates: 1 non-forks, 1 including forks., Archived: 0 non-forks, 0 including forks.. Contributions · Past year: Commits: 149, Pull requests: 10, Issues: 8, PR reviews: 0, Contributed to: 6. Language distribution: TypeScript: 75.8%, Python: 15.2%, Kotlin: 4.6%, CSS: 3.0%, JavaScript: 0.9%, Dockerfile: 0.5%, Makefile: 0.1%</desc>
+  <desc id="description">NekosanQ. General: Year joined: 2021, Followers: 14, Following: 13, Most starred: nekosanq.net, Most forked: —. Repositories · Non-forks / All: Repositories: 12 non-forks, 15 including forks., Stars: 6 non-forks, 6 including forks., Forks: 0 non-forks, 0 including forks., Watchers: 11 non-forks, 11 including forks., Templates: 1 non-forks, 1 including forks., Archived: 0 non-forks, 0 including forks.. Contributions · Past year: Commits: 149, Pull requests: 10, Issues: 8, PR reviews: 0, Contributed to: 6. Language distribution: TypeScript: 76.3%, Python: 14.9%, Kotlin: 4.5%, CSS: 2.9%, JavaScript: 0.9%, Dockerfile: 0.5%, Makefile: 0.1%</desc>
   <style>
     text { font: 11px Verdana, Geneva, "DejaVu Sans", sans-serif; fill: #e6edf3; }
     .heading { font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
@@ -24,25 +24,25 @@
 <g transform="translate(544 194)" fill="none" stroke="#e6edf3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 2h12v9H7l-4 3v-3H2zM5 6l2 2 4-4"/></g><text x="568" y="206" class="muted">PR reviews</text><text x="776" y="206" text-anchor="end" class="value">0</text>
 <g transform="translate(544 216)" fill="none" stroke="#e6edf3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 13H1V2h10v3M7 9h8M11 5v8M5 15h10"/></g><text x="568" y="228" class="muted">Contributed to</text><text x="776" y="228" text-anchor="end" class="value">6</text></g><path d="M24 272H776" stroke="#3d444d"/><g transform="translate(24 288)" fill="none" stroke="#e6edf3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 4-4 4 4 4M11 4l4 4-4 4M9 2 7 14"/></g><text x="48" y="300" class="heading" style="font-size:14px">Language distribution</text><text x="776" y="300" text-anchor="end" class="muted">By code size</text>
   <defs><clipPath id="language-bar"><rect x="24" y="316" width="752" height="10" rx="5"/></clipPath></defs>
-  <g clip-path="url(#language-bar)"><rect x="24.000" y="316" width="570.308" height="10" fill="#3178c6"/>
-<rect x="594.308" y="316" width="114.031" height="10" fill="#3572A5"/>
-<rect x="708.339" y="316" width="34.496" height="10" fill="#A97BFF"/>
-<rect x="742.835" y="316" width="22.236" height="10" fill="#663399"/>
-<rect x="765.071" y="316" width="6.689" height="10" fill="#f1e05a"/>
-<rect x="771.760" y="316" width="3.809" height="10" fill="#384d54"/>
-<rect x="775.570" y="316" width="0.430" height="10" fill="#427819"/></g>
+  <g clip-path="url(#language-bar)"><rect x="24.000" y="316" width="573.882" height="10" fill="#3178c6"/>
+<rect x="597.882" y="316" width="111.788" height="10" fill="#3572A5"/>
+<rect x="709.670" y="316" width="33.818" height="10" fill="#A97BFF"/>
+<rect x="743.488" y="316" width="21.798" height="10" fill="#663399"/>
+<rect x="765.286" y="316" width="6.558" height="10" fill="#f1e05a"/>
+<rect x="771.844" y="316" width="3.734" height="10" fill="#384d54"/>
+<rect x="775.578" y="316" width="0.422" height="10" fill="#427819"/></g>
   <circle cx="27" cy="346" r="3" fill="#3178c6"/>
       <svg x="37" y="338" width="120" height="16" viewBox="0 0 120 16"><text y="12">TypeScript</text></svg>
-      <text x="198" y="350" text-anchor="end" class="muted">75.8%</text>
+      <text x="198" y="350" text-anchor="end" class="muted">76.3%</text>
 <circle cx="219" cy="346" r="3" fill="#3572A5"/>
       <svg x="229" y="338" width="120" height="16" viewBox="0 0 120 16"><text y="12">Python</text></svg>
-      <text x="390" y="350" text-anchor="end" class="muted">15.2%</text>
+      <text x="390" y="350" text-anchor="end" class="muted">14.9%</text>
 <circle cx="411" cy="346" r="3" fill="#A97BFF"/>
       <svg x="421" y="338" width="120" height="16" viewBox="0 0 120 16"><text y="12">Kotlin</text></svg>
-      <text x="582" y="350" text-anchor="end" class="muted">4.6%</text>
+      <text x="582" y="350" text-anchor="end" class="muted">4.5%</text>
 <circle cx="603" cy="346" r="3" fill="#663399"/>
       <svg x="613" y="338" width="120" height="16" viewBox="0 0 120 16"><text y="12">CSS</text></svg>
-      <text x="774" y="350" text-anchor="end" class="muted">3.0%</text>
+      <text x="774" y="350" text-anchor="end" class="muted">2.9%</text>
 <circle cx="27" cy="368" r="3" fill="#f1e05a"/>
       <svg x="37" y="360" width="120" height="16" viewBox="0 0 120 16"><text y="12">JavaScript</text></svg>
       <text x="198" y="372" text-anchor="end" class="muted">0.9%</text>
