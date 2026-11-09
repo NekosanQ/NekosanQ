@@ -1,0 +1,21 @@
+{
+  "name": "nekosanq-profile",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-stats.ts",
+    "generate:skills": "node scripts/generate-skills.ts",
+    "check": "tsc --noEmit",
+    "test": "node --test scripts/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "simple-icons": "^16.37.0"
+  }
+}
