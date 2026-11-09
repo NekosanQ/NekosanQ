@@ -1,10 +1,21 @@
 ## Hello World!!
 I'm a student with many hobbies...
+
 ## Status
-<p align="left"> 
-  <img alt="github status" height="150px" src="https://github-readme-stats.vercel.app/api?username=NekosanQ&show_icons=true&theme=dark" />
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NekosanQ&layout=compact&theme=dark&count_private=true" />
+
+<p align="left">
+  <img
+    alt="GitHub Stats"
+    height="150"
+    src="https://github-stats-extended.vercel.app/api?username=NekosanQ&show_icons=true&theme=dark"
+  />
+  <img
+    alt="Top Languages"
+    height="150"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=NekosanQ&layout=compact&theme=dark"
+  />
 </p>
+
 
 ## My Skills
 <img alt="my skills" src="https://skillicons.dev/icons?i=ts,js,nodejs,discordjs,py,java,mysql,ubuntu,prisma,bootstrap,cloudflare,aws,vscode,notion&theme=dark&perline=15" />
